@@ -1,2 +1,16 @@
-# FASE4_SISTEMA_INTEGRAL_SOFWARE_FJ
-Este es un sistema integral orientado a objetos, sin uso de bases de datos, capaz de gestionar clientes, servicios y reservas para una empresa llamada Software FJ que ofrece varios tipos de servicios (reservas de salas, alquiler de equipos y asesorías especializadas).
+# Software FJ – Gestión de Clientes, Servicios y Reservas
+
+Proyecto de Programación (UNAD, curso 213023) con POO y manejo de excepciones, sin bases de datos.
+
+## Ejecutar
+    python main.py
+
+## Estructura
+- `entidad.py`: clase abstracta base.
+- `cliente.py`: Cliente con validaciones y encapsulación.
+- `servicios.py`: Servicio (abstracta) + ReservaSala, AlquilerEquipo, AsesoriaEspecializada.
+- `reserva.py`: Reserva (confirmar, cancelar, procesar).
+- `excepciones.py`: excepciones personalizadas.
+- `logger.py`: configuración del archivo de logs (`logs/software_fj.log`).
+- `gestor.py`: listas internas y operaciones protegidas con try/except.
+- `main.py`: simulación de 20 operaciones.

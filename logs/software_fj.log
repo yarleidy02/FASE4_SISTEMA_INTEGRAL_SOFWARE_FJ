@@ -1,0 +1,144 @@
+2026-11-20 14:37:40,958 | INFO | ===== INICIO DE LA SIMULACIÓN =====
+2026-11-20 14:37:40,959 | INFO | Cliente registrado: Cliente #1: Ana María Ruiz (doc. 1012345678)
+2026-11-20 14:37:40,959 | ERROR | Registro de cliente fallido: Email inválido: 'pedro-correo.com'
+2026-11-20 14:37:40,959 | ERROR | Registro de cliente fallido: El documento debe ser numérico, de 6 a 12 dígitos.
+2026-11-20 14:37:40,959 | ERROR | Registro de cliente fallido: Documento 1012345678 ya registrado.
+2026-11-20 14:37:40,959 | INFO | Cliente registrado: Cliente #2: Carlos Díaz (doc. 79123456)
+2026-11-20 14:37:40,960 | INFO | Servicio creado: [Sala] Sala Ejecutiva - $80,000/hora (disponible) - capacidad 10
+2026-11-20 14:37:40,960 | INFO | Servicio creado: [Equipo] Videobeam - $25,000/hora (disponible) - stock 3
+2026-11-20 14:37:40,960 | INFO | Servicio creado: [Asesoría] Asesoría Python - $120,000/hora (disponible) - Programación
+2026-11-20 14:37:40,960 | ERROR | Creación de servicio fallida: La tarifa por hora debe ser un número positivo.
+2026-11-20 14:37:40,960 | ERROR | Creación de servicio fallida: AlquilerEquipo.__init__() missing 1 required positional argument: 'stock'
+2026-11-20 14:37:40,960 | INFO | Servicio creado: [Sala] Sala Mantenimiento - $60,000/hora (NO disponible) - capacidad 6
+2026-11-20 14:37:40,960 | INFO | Reserva #1 confirmada.
+2026-11-20 14:37:40,960 | INFO | Intento de confirmación de reserva #1 finalizado.
+2026-11-20 14:37:40,960 | INFO | Reserva #1 procesada. Total: $190400.0
+2026-11-20 14:37:40,960 | INFO | Fin de procesamiento de reserva #1.
+2026-11-20 14:37:40,960 | INFO | Reserva #2 confirmada.
+2026-11-20 14:37:40,960 | INFO | Intento de confirmación de reserva #2 finalizado.
+2026-11-20 14:37:40,960 | INFO | Reserva #2 procesada. Total: $178500.0
+2026-11-20 14:37:40,960 | INFO | Fin de procesamiento de reserva #2.
+2026-11-20 14:37:40,961 | INFO | Reserva #3 confirmada.
+2026-11-20 14:37:40,961 | INFO | Intento de confirmación de reserva #3 finalizado.
+2026-11-20 14:37:40,961 | INFO | Reserva #3 procesada. Total: $321300.0
+2026-11-20 14:37:40,961 | INFO | Fin de procesamiento de reserva #3.
+2026-11-20 14:37:40,961 | INFO | Intento de confirmación de reserva #4 finalizado.
+2026-11-20 14:37:40,961 | ERROR | Reserva fallida: Reserva #4 rechazada: Personas debe estar entre 1 y 10. | causa: ServicioInvalidoError('Personas debe estar entre 1 y 10.')
+2026-11-20 14:37:40,961 | INFO | Intento de confirmación de reserva #4 finalizado.
+2026-11-20 14:37:40,961 | ERROR | Reserva fallida: Reserva #4 rechazada: Falta el parámetro 'tema' de la asesoría. | causa: ParametroFaltanteError("Falta el parámetro 'tema' de la asesoría.")
+2026-11-20 14:37:40,961 | INFO | Intento de confirmación de reserva #4 finalizado.
+2026-11-20 14:37:40,961 | ERROR | Reserva fallida: 'Sala Mantenimiento' no está disponible. | causa: None
+2026-11-20 14:37:40,961 | ERROR | Reserva fallida: Cliente #99 no existe. | causa: None
+2026-11-20 14:37:40,961 | INFO | Intento de confirmación de reserva #4 finalizado.
+2026-11-20 14:37:40,961 | ERROR | Reserva fallida: Reserva #4 rechazada: Las horas deben estar entre 0 y 12. | causa: ServicioInvalidoError('Las horas deben estar entre 0 y 12.')
+2026-11-20 14:37:40,962 | ERROR | Cancelación fallida: No se puede cancelar una reserva PROCESADA.
+2026-11-20 14:37:40,962 | ERROR | Cálculo inconsistente capturado: Impuesto o descuento fuera de rango.
+2026-11-20 14:37:40,962 | INFO | ===== FIN DE LA SIMULACIÓN =====
+2026-11-20 14:46:45,833 | INFO | ===== INICIO DE LA SIMULACIÓN =====
+2026-11-20 14:46:45,834 | INFO | Cliente registrado: Cliente #1: Ana María Ruiz (doc. 1012345678)
+2026-11-20 14:46:45,834 | ERROR | Registro de cliente fallido: Email inválido: 'pedro-correo.com'
+2026-11-20 14:46:45,834 | ERROR | Registro de cliente fallido: El documento debe ser numérico, de 6 a 12 dígitos.
+2026-11-20 14:46:45,834 | ERROR | Registro de cliente fallido: Documento 1012345678 ya registrado.
+2026-11-20 14:46:45,834 | INFO | Cliente registrado: Cliente #2: Carlos Díaz (doc. 79123456)
+2026-11-20 14:46:45,834 | INFO | Servicio creado: [Sala] Sala Ejecutiva - $80,000/hora (disponible) - capacidad 10
+2026-11-20 14:46:45,834 | INFO | Servicio creado: [Equipo] Videobeam - $25,000/hora (disponible) - stock 3
+2026-11-20 14:46:45,834 | INFO | Servicio creado: [Asesoría] Asesoría Python - $120,000/hora (disponible) - Programación
+2026-11-20 14:46:45,834 | ERROR | Creación de servicio fallida: La tarifa por hora debe ser un número positivo.
+2026-11-20 14:46:45,835 | ERROR | Creación de servicio fallida: AlquilerEquipo.__init__() missing 1 required positional argument: 'stock'
+2026-11-20 14:46:45,835 | INFO | Servicio creado: [Sala] Sala Mantenimiento - $60,000/hora (NO disponible) - capacidad 6
+2026-11-20 14:46:45,835 | INFO | Reserva #1 confirmada.
+2026-11-20 14:46:45,835 | INFO | Intento de confirmación de reserva #1 finalizado.
+2026-11-20 14:46:45,835 | INFO | Reserva #1 procesada. Total: $190400.0
+2026-11-20 14:46:45,835 | INFO | Fin de procesamiento de reserva #1.
+2026-11-20 14:46:45,835 | INFO | Reserva #2 confirmada.
+2026-11-20 14:46:45,835 | INFO | Intento de confirmación de reserva #2 finalizado.
+2026-11-20 14:46:45,835 | INFO | Reserva #2 procesada. Total: $178500.0
+2026-11-20 14:46:45,835 | INFO | Fin de procesamiento de reserva #2.
+2026-11-20 14:46:45,835 | INFO | Reserva #3 confirmada.
+2026-11-20 14:46:45,835 | INFO | Intento de confirmación de reserva #3 finalizado.
+2026-11-20 14:46:45,835 | INFO | Reserva #3 procesada. Total: $321300.0
+2026-11-20 14:46:45,835 | INFO | Fin de procesamiento de reserva #3.
+2026-11-20 14:46:45,835 | INFO | Intento de confirmación de reserva #4 finalizado.
+2026-11-20 14:46:45,835 | ERROR | Reserva fallida: Reserva #4 rechazada: Personas debe estar entre 1 y 10. | causa: ServicioInvalidoError('Personas debe estar entre 1 y 10.')
+2026-11-20 14:46:45,835 | INFO | Intento de confirmación de reserva #4 finalizado.
+2026-11-20 14:46:45,835 | ERROR | Reserva fallida: Reserva #4 rechazada: Falta el parámetro 'tema' de la asesoría. | causa: ParametroFaltanteError("Falta el parámetro 'tema' de la asesoría.")
+2026-11-20 14:46:45,836 | INFO | Intento de confirmación de reserva #4 finalizado.
+2026-11-20 14:46:45,836 | ERROR | Reserva fallida: 'Sala Mantenimiento' no está disponible. | causa: None
+2026-11-20 14:46:45,836 | ERROR | Reserva fallida: Cliente #99 no existe. | causa: None
+2026-11-20 14:46:45,836 | INFO | Intento de confirmación de reserva #4 finalizado.
+2026-11-20 14:46:45,836 | ERROR | Reserva fallida: Reserva #4 rechazada: Las horas deben estar entre 0 y 12. | causa: ServicioInvalidoError('Las horas deben estar entre 0 y 12.')
+2026-11-20 14:46:45,836 | ERROR | Cancelación fallida: No se puede cancelar una reserva PROCESADA.
+2026-11-20 14:46:45,836 | ERROR | Cálculo inconsistente capturado: Impuesto o descuento fuera de rango.
+2026-11-20 14:46:45,836 | INFO | ===== FIN DE LA SIMULACIÓN =====
+2026-11-20 14:46:52,115 | INFO | ===== INICIO DE LA SIMULACIÓN =====
+2026-11-20 14:46:52,116 | INFO | Cliente registrado: Cliente #1: Ana María Ruiz (doc. 1012345678)
+2026-11-20 14:46:52,116 | ERROR | Registro de cliente fallido: Email inválido: 'pedro-correo.com'
+2026-11-20 14:46:52,116 | ERROR | Registro de cliente fallido: El documento debe ser numérico, de 6 a 12 dígitos.
+2026-11-20 14:46:52,116 | ERROR | Registro de cliente fallido: Documento 1012345678 ya registrado.
+2026-11-20 14:46:52,116 | INFO | Cliente registrado: Cliente #2: Carlos Díaz (doc. 79123456)
+2026-11-20 14:46:52,116 | INFO | Servicio creado: [Sala] Sala Ejecutiva - $80,000/hora (disponible) - capacidad 10
+2026-11-20 14:46:52,116 | INFO | Servicio creado: [Equipo] Videobeam - $25,000/hora (disponible) - stock 3
+2026-11-20 14:46:52,116 | INFO | Servicio creado: [Asesoría] Asesoría Python - $120,000/hora (disponible) - Programación
+2026-11-20 14:46:52,116 | ERROR | Creación de servicio fallida: La tarifa por hora debe ser un número positivo.
+2026-11-20 14:46:52,116 | ERROR | Creación de servicio fallida: AlquilerEquipo.__init__() missing 1 required positional argument: 'stock'
+2026-11-20 14:46:52,117 | INFO | Servicio creado: [Sala] Sala Mantenimiento - $60,000/hora (NO disponible) - capacidad 6
+2026-11-20 14:46:52,117 | INFO | Reserva #1 confirmada.
+2026-11-20 14:46:52,117 | INFO | Intento de confirmación de reserva #1 finalizado.
+2026-11-20 14:46:52,117 | INFO | Reserva #1 procesada. Total: $190400.0
+2026-11-20 14:46:52,117 | INFO | Fin de procesamiento de reserva #1.
+2026-11-20 14:46:52,117 | INFO | Reserva #2 confirmada.
+2026-11-20 14:46:52,117 | INFO | Intento de confirmación de reserva #2 finalizado.
+2026-11-20 14:46:52,117 | INFO | Reserva #2 procesada. Total: $178500.0
+2026-11-20 14:46:52,117 | INFO | Fin de procesamiento de reserva #2.
+2026-11-20 14:46:52,117 | INFO | Reserva #3 confirmada.
+2026-11-20 14:46:52,117 | INFO | Intento de confirmación de reserva #3 finalizado.
+2026-11-20 14:46:52,117 | INFO | Reserva #3 procesada. Total: $321300.0
+2026-11-20 14:46:52,117 | INFO | Fin de procesamiento de reserva #3.
+2026-11-20 14:46:52,117 | INFO | Intento de confirmación de reserva #4 finalizado.
+2026-11-20 14:46:52,117 | ERROR | Reserva fallida: Reserva #4 rechazada: Personas debe estar entre 1 y 10. | causa: ServicioInvalidoError('Personas debe estar entre 1 y 10.')
+2026-11-20 14:46:52,117 | INFO | Intento de confirmación de reserva #4 finalizado.
+2026-11-20 14:46:52,117 | ERROR | Reserva fallida: Reserva #4 rechazada: Falta el parámetro 'tema' de la asesoría. | causa: ParametroFaltanteError("Falta el parámetro 'tema' de la asesoría.")
+2026-11-20 14:46:52,117 | INFO | Intento de confirmación de reserva #4 finalizado.
+2026-11-20 14:46:52,117 | ERROR | Reserva fallida: 'Sala Mantenimiento' no está disponible. | causa: None
+2026-11-20 14:46:52,117 | ERROR | Reserva fallida: Cliente #99 no existe. | causa: None
+2026-11-20 14:46:52,117 | INFO | Intento de confirmación de reserva #4 finalizado.
+2026-11-20 14:46:52,117 | ERROR | Reserva fallida: Reserva #4 rechazada: Las horas deben estar entre 0 y 12. | causa: ServicioInvalidoError('Las horas deben estar entre 0 y 12.')
+2026-11-20 14:46:52,117 | ERROR | Cancelación fallida: No se puede cancelar una reserva PROCESADA.
+2026-11-20 14:46:52,118 | ERROR | Cálculo inconsistente capturado: Impuesto o descuento fuera de rango.
+2026-11-20 14:46:52,118 | INFO | ===== FIN DE LA SIMULACIÓN =====
+2026-11-20 14:46:57,666 | INFO | ===== INICIO DE LA SIMULACIÓN =====
+2026-11-20 14:46:57,666 | INFO | Cliente registrado: Cliente #1: Ana María Ruiz (doc. 1012345678)
+2026-11-20 14:46:57,667 | ERROR | Registro de cliente fallido: Email inválido: 'pedro-correo.com'
+2026-11-20 14:46:57,667 | ERROR | Registro de cliente fallido: El documento debe ser numérico, de 6 a 12 dígitos.
+2026-11-20 14:46:57,667 | ERROR | Registro de cliente fallido: Documento 1012345678 ya registrado.
+2026-11-20 14:46:57,667 | INFO | Cliente registrado: Cliente #2: Carlos Díaz (doc. 79123456)
+2026-11-20 14:46:57,667 | INFO | Servicio creado: [Sala] Sala Ejecutiva - $80,000/hora (disponible) - capacidad 10
+2026-11-20 14:46:57,667 | INFO | Servicio creado: [Equipo] Videobeam - $25,000/hora (disponible) - stock 3
+2026-11-20 14:46:57,667 | INFO | Servicio creado: [Asesoría] Asesoría Python - $120,000/hora (disponible) - Programación
+2026-11-20 14:46:57,667 | ERROR | Creación de servicio fallida: La tarifa por hora debe ser un número positivo.
+2026-11-20 14:46:57,667 | ERROR | Creación de servicio fallida: AlquilerEquipo.__init__() missing 1 required positional argument: 'stock'
+2026-11-20 14:46:57,667 | INFO | Servicio creado: [Sala] Sala Mantenimiento - $60,000/hora (NO disponible) - capacidad 6
+2026-11-20 14:46:57,668 | INFO | Reserva #1 confirmada.
+2026-11-20 14:46:57,668 | INFO | Intento de confirmación de reserva #1 finalizado.
+2026-11-20 14:46:57,668 | INFO | Reserva #1 procesada. Total: $190400.0
+2026-11-20 14:46:57,668 | INFO | Fin de procesamiento de reserva #1.
+2026-11-20 14:46:57,668 | INFO | Reserva #2 confirmada.
+2026-11-20 14:46:57,668 | INFO | Intento de confirmación de reserva #2 finalizado.
+2026-11-20 14:46:57,668 | INFO | Reserva #2 procesada. Total: $178500.0
+2026-11-20 14:46:57,668 | INFO | Fin de procesamiento de reserva #2.
+2026-11-20 14:46:57,668 | INFO | Reserva #3 confirmada.
+2026-11-20 14:46:57,668 | INFO | Intento de confirmación de reserva #3 finalizado.
+2026-11-20 14:46:57,668 | INFO | Reserva #3 procesada. Total: $321300.0
+2026-11-20 14:46:57,668 | INFO | Fin de procesamiento de reserva #3.
+2026-11-20 14:46:57,668 | INFO | Intento de confirmación de reserva #4 finalizado.
+2026-11-20 14:46:57,668 | ERROR | Reserva fallida: Reserva #4 rechazada: Personas debe estar entre 1 y 10. | causa: ServicioInvalidoError('Personas debe estar entre 1 y 10.')
+2026-11-20 14:46:57,668 | INFO | Intento de confirmación de reserva #4 finalizado.
+2026-11-20 14:46:57,668 | ERROR | Reserva fallida: Reserva #4 rechazada: Falta el parámetro 'tema' de la asesoría. | causa: ParametroFaltanteError("Falta el parámetro 'tema' de la asesoría.")
+2026-11-20 14:46:57,668 | INFO | Intento de confirmación de reserva #4 finalizado.
+2026-11-20 14:46:57,668 | ERROR | Reserva fallida: 'Sala Mantenimiento' no está disponible. | causa: None
+2026-11-20 14:46:57,669 | ERROR | Reserva fallida: Cliente #99 no existe. | causa: None
+2026-11-20 14:46:57,669 | INFO | Intento de confirmación de reserva #4 finalizado.
+2026-11-20 14:46:57,669 | ERROR | Reserva fallida: Reserva #4 rechazada: Las horas deben estar entre 0 y 12. | causa: ServicioInvalidoError('Las horas deben estar entre 0 y 12.')
+2026-11-20 14:46:57,669 | ERROR | Cancelación fallida: No se puede cancelar una reserva PROCESADA.
+2026-11-20 14:46:57,669 | ERROR | Cálculo inconsistente capturado: Impuesto o descuento fuera de rango.
+2026-11-20 14:46:57,669 | INFO | ===== FIN DE LA SIMULACIÓN =====
